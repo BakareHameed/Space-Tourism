@@ -1,0 +1,128 @@
+body{
+    background-image: url(../starter-code/assets/crew/background-crew-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto 0;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: baseline;
+}
+.crew-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.intro{
+    color: white;
+}
+.crew-text{
+    color: white;
+    justify-content: space-around;
+    width: 30vw;
+
+}
+.crew-text p{
+    color: rgba(255, 255, 255, 0.582);
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    width: 10vw;
+    align-content: center;
+}
+.links h2{
+    background-color: inherit;
+    width: 20px;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 50%;
+    text-align: center;    
+}
+.links h2 a{
+    text-decoration: none;
+    color: white;
+}
+.crew-image img{
+    height: 55vh;
+    /* width: 50%; */
+    justify-content: baseline;
+    align-content: flex-end;
+    align-content: flex-end;
+    transform: translateY(16%);
+}
+
+
+@media (max-width:1000px){
+    body{
+        background-image: url(../starter-code/assets/crew/background-crew-tablet.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: auto 0;
+        height: 100vh;
+    }    
+    .container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .crew-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+    .crew-text{
+        color: white;
+        justify-content: space-around;
+        width: 30vw;
+    }
+    .crew-image img{
+        height: 55vh;
+        /* width: 50%; */
+        justify-content: baseline;
+        align-content: flex-end;
+        align-content: flex-end;
+        transform: translateY(0%);
+    }
+    
+    
+}
+@media (max-width: 500px){
+    body{
+        background-image: url(../starter-code/assets/crew/background-crew-mobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: auto 0;
+        height: 130vh;
+    }    
+    .container{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .crew-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        text-align: center;
+    }
+    .crew-text{
+        color: white;
+        justify-content: space-around;
+        width: 60vw;
+    }
+    .links{
+        display: flex;
+        justify-content: space-around;
+        width: 10vw;
+        align-content: center;
+        margin-left: 40%;
+        margin-right: auto;
+
+    }
+    
+}

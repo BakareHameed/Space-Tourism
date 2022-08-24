@@ -1,0 +1,167 @@
+body{
+    background-image: url(../starter-code/assets/destination/background-destination-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto 0;
+    height: 100vh;
+}.header{
+    display: flex;
+    justify-content: space-around;
+}
+.navigation ul{
+    display: flex;  
+
+}   
+.navigation li{
+    list-style: none;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+.nav-links a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.808);
+}
+.header h1{
+    color: white;
+}
+.destination-container{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    justify-content: space-around;
+}
+.mars-image{
+    justify-content: center;
+    align-content: center;
+}
+.mars-image img{
+    margin-top: 20px;
+    margin-left: 60px;
+    /* transform: translateY(15%); */
+
+}
+.about-mars{
+    display: block;
+    color: white;
+    /* text-align: center; */
+    width: 60vh;
+    margin-right: 90PX;
+    margin-top: 70px;
+}
+.about-mars h1{
+    font-size: 60px;
+}
+.about-mars p{
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.699);
+}
+.travel-time .distance{
+    display: grid;
+
+}
+.travel-time .estimate{
+    display: grid;
+}
+
+.travel-time{
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width:500px){
+    body{
+        height: 200vh;
+    }
+    .header{
+        display: block;
+        text-align: center;
+    }
+
+    .destination-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .mars-image{
+        justify-content: center;
+        align-content: center;
+    }
+    .mars-image img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        /* transform: translateY(10%); */
+    }
+    .about-mars{
+    display: block;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    /* text-align: center; */
+    /* margin-right: 90PX;
+    margin-top: 70px; */
+    }
+    .about-mars h1{
+        font-size: 60px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+    .about-mars p{
+        display: block;
+        color: rgba(255, 255, 255, 0.699);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .travel-time{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    
+
+}
+@media (max-width:1000px){
+    body{
+        height: 120vh;
+        margin: auto;
+    }
+    .destination-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .mars-image{
+        justify-content: center;
+        align-content: center;
+    }
+    .mars-image img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        /* justify-content: center;
+        align-content: center; */
+        /* transform: translateX(43%); */
+        /* transform: translateY(10%); */
+    }
+    .about-mars{
+        display: block;
+        color: white;
+        text-align: center;
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+        margin-left: 70px;
+    }
+    .travel-time{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+
+}

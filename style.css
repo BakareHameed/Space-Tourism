@@ -1,0 +1,159 @@
+body{
+    background-image: url(../starter-code/assets/home/background-home-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto 0;
+    height: 100vh;
+}
+.navbar-toggler{
+    background-color: white !important;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: middle;
+    /* position: relative; */
+    transform: translateY(50%);
+}
+.text{
+    font-family: Arial, sans-serif;
+    color: rgba(245, 245, 245, 0.65);
+}
+.text h1{
+    font-size: 90px;
+    text-transform: uppercase;
+    color: white;
+    font-family:'Arial Narrow', Arial, sans-serif;
+}
+.explore{
+    height: 40vh;
+    width: 40vh;
+    background-color: white;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+}
+@media (max-width:500px){
+    body{
+        background-image: url(../starter-code/assets/home/background-home-mobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: auto 0;
+        height: 320vh;
+    }
+        .container{
+        display: grid;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        transform: translateY(10%);
+    }
+    .text{
+        font-family: Arial, sans-serif;
+        color: rgba(245, 245, 245, 0.65);
+        text-align: center;
+    }
+    .text p{
+        justify-content: center;
+    }
+    .explore{
+        margin: 0 auto;
+        height: 40vh;
+        width: 40vh;
+        background-color: white;
+        color: black;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        display: flex;
+        transform: translateY(82%);
+    }       
+       
+}
+@media (max-width:1000px){
+    body{
+        background-image: url(../starter-code/assets/home/background-home-tablet.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: auto 0;
+        height: 170vh;
+    }
+    .container{
+        display: grid;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        transform: translateY(10%);
+    }
+    .text{
+        font-family: Arial, sans-serif;
+        color: rgba(245, 245, 245, 0.65);
+        text-align: center;
+    }
+    .text h1{
+        font-size: 110px;
+        text-transform: uppercase;
+        color: white;
+        font-family:'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .text p{
+        justify-content: center;
+        font-size: 25px;
+    }
+    .explore{
+        margin: 0 auto;
+        height: 40vh;
+        width: 40vh;
+        background-color: white;
+        color: black;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        display: flex;
+        transform: translateY(90%);
+    }       
+
+
+}
+
+@media (max-width:400px){
+    body{
+        background-image: url(../starter-code/assets/home/background-home-mobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: auto 0;
+        height: fit-content;
+    }
+    .container{
+        display: grid;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        transform: translateY(3%);
+        text-align: center;
+    }
+    .explore{
+        margin: 0 auto;
+        height: 40vh;
+        width: 40vh;
+        background-color: white;
+        color: black;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        display: flex;
+        transform: translateY(-1%);
+    }       
+
+}
